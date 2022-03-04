@@ -149,3 +149,27 @@ Ticket Styles
 .ticket-img img{
     width: 100%;
 }
+/* ----------
+Footer Styles
+---------- */
+footer{
+    text-align: center;
+    margin-top: 75px;
+    background-color: #fff;
+    padding: 30px;
+}
+.footer-logo img{
+    width: 420px;
+}
+.social-icon{
+    font-size: 30px;
+}
+.social-icon i{
+    padding: 0px 7px;
+    color: #766e6e;
+}
+footer p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
