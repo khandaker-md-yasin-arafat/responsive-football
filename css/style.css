@@ -121,4 +121,31 @@ Clubs Styles
 .club-info a{
     text-decoration: none;
     color: #E02C6D;
+    font-size: 14px;
+}
+
+/* ----------
+Ticket Styles 
+-----------*/
+.ticket{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    align-items: center;
+}
+.ticket-title h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.ticket-title a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 59px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.ticket-img img{
+    width: 100%;
 }
