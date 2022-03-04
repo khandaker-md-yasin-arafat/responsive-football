@@ -84,6 +84,41 @@ Players Styles
     margin: 10px 0 10px 0;
 }
 .player p{
+    color: #766e6e;
     font-size: 16px;
     width: 300px;
+}
+/* ---------
+Clubs Styles
+--------- */
+.clubs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-top: 40px;
+}
+.club{
+    display: flex;
+    align-items: center;
+}
+.club-img img{
+    width: 200px;
+    height: 130px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 8px;
+}
+.club-info{
+    margin-left: 20px;
+}
+.club-info h3{
+    font-size: 22px;
+}
+.club-info p{
+    color: #766e6e;
+}
+.club-info a{
+    text-decoration: none;
+    color: #E02C6D;
 }
