@@ -53,8 +53,16 @@ Top Banner Styles
     background-color: #E02C6D;
     padding: 10px 24px;
 }
+.banner-btn:hover{
+    background-color: #c4094d;
+    transition: 0.3s;
+}
 .banner-img img{
     width: 556px;
+}
+.banner-img img:hover{
+    transform: rotate(20deg);
+    transition: 0.5s;
 }
 .fa-arrow-right{
     margin-left: 10px;
@@ -123,6 +131,10 @@ Clubs Styles
     color: #E02C6D;
     font-size: 14px;
 }
+.club-info a:hover{
+    color: #c4094d;
+    transition: 0.3s;
+}
 
 /* ----------
 Ticket Styles 
@@ -149,6 +161,10 @@ Ticket Styles
 .ticket-img img{
     width: 100%;
 }
+.ticket-title a:hover{
+    background-color: #c4094d;
+    transition: 0.3s;
+}
 /* ----------
 Footer Styles
 ---------- */
@@ -168,8 +184,59 @@ footer{
     padding: 0px 7px;
     color: #766e6e;
 }
+.social-icon i:hover{
+    color: #E02C6D;
+    transition: 0.3s;
+}
 footer p{
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* ----------
+Media Queries 
+-------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .top-banner, .players, .clubs, .ticket{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-title h2 {
+        font-size: 43px;
+        margin-bottom: 30px;
+    }
+    .banner-img img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .ticket-img img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .top-banner, .players, .clubs, .ticket{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner-img img {
+        width: 100%;
+    }
+}
+
