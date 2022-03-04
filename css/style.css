@@ -59,22 +59,21 @@ Top Banner Styles
 .fa-arrow-right{
     margin-left: 10px;
 }
-/* ---------------
-Top Players Styles 
-----------------*/
-.top-players{
-    margin-top: 40px;
-}
+/* -----------
+Players Styles 
+------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     justify-content: center;
+    margin-top: 40px;
 }
 .player{
     padding: 15px;
     background-color: #ffffff;
+    box-shadow: 1px 1px 5px grey;
 }
 .player img{
     width: 100%;
